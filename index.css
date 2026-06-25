@@ -186,6 +186,7 @@ footer {
 }
 
 .footer-logo img {
+    z-index: 10;
     width: 450px;
     max-width: 100%;
 }
