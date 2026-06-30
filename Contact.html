@@ -20,6 +20,7 @@
         </div>
     </nav>
     <!-- ヘッターここまで -->
+     
 
     <div class="contact-box">
        <h1>お問い合わせ</h1>
@@ -54,7 +55,7 @@
     const message = document.getElementById("message").value;
 
     const data = {
-    content: `お問い合わせ\ne-mail: ${email}\nメッセージ: ${message}`
+    content: `お問い合わせ\n名前: ${name}\ne-mail: ${email}\nメッセージ: ${message}`
     };
 
     await fetch(WEBHOOK_URL, {
