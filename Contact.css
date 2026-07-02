@@ -1,4 +1,5 @@
 /* ヘッター */
+/* ヘッター */
 nav {
     position: fixed;
     top: 0;
@@ -15,6 +16,13 @@ nav {
     margin-left: auto;
 }
 
+.menutext a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 18px;
+}
+
 .menu {
     flex: 1;
     text-align: center;
@@ -28,12 +36,13 @@ a{
     text-decoration: none;
 }
 
-a:visited {
- color: #ffffff;
+
+.activeHOME {
+    text-decoration: underline;
 }
 
-.activeCONTACT {
-    text-decoration: underline;
+a:visited {
+ color: #ffffff;
 }
 
 .logo {
